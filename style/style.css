@@ -68,4 +68,11 @@ body {
   pointer-events: none;
 }
 
+@media (max-width: 684px) {
+  .container {
+    width: 350px;
+    padding: 45px 40px 40px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

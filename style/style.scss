@@ -69,3 +69,20 @@ body {
     }
   }
 }
+@media (max-width: 684px) {
+  .container {
+    width: 350px;
+    padding: 45px 40px 40px;
+    .input_wrap {
+      input {
+      }
+      &:valid ~ .input_line,
+      &:focus ~ .input_line {
+      }
+    }
+    .placeholder {
+    }
+    .input_line {
+    }
+  }
+}
